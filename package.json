@@ -1,0 +1,21 @@
+{
+  "name": "production-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "\"This code for Production Backend\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "\"javascript",
+    "backend",
+    "node\""
+  ],
+  "author": "\"Arun Prajapati\"",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  }
+}
