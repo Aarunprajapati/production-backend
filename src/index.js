@@ -1,7 +1,5 @@
 import dotenv from "dotenv";
 import connectDB from "./db/index.js";
-import cookieParser from "cookie-parser";
-import cors from 'cors'
 
 dotenv.config({
   path: "./env",
