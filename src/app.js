@@ -22,4 +22,11 @@ app.use(express.urlencoded({
 );
 app.use(cookieParser());
 
+// Router Import
+import userRouter from './routes/user.routes.js'
+
+// router decleration
+app.use('/api/v2/user', userRouter) 
+// http://localhost:8000/api/v2/user/register
+
 export { app };
